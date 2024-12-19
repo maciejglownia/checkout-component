@@ -1,7 +1,7 @@
 # checkout-component
 
 ### Overview
-This project implements a market checkout system that calculates the total price of a list of items in a shopping cart, applying any multi-price promotions where applicable.\
+This project implements a market checkout system that calculates the total price of a list of items in a shopping cart, applying any multi-price promotions where applicable.
 
 The system is designed to:
 - Scan individual items
@@ -26,12 +26,13 @@ Represents an item added to the shopping cart, with:
 - item: An Item object.
 - quantity: Number of units of the Item present in the cart.
 
-`Promotion` \ 
+`Promotion` \
 Defines the contract for promotion implementations:
 - Method: apply(List<CartItem> cartItems) \
 Applies the promotion to the specified list of CartItem objects, returning the total discount that applies for the promotion.
 
-`MultiPricePromotion` (Implementation of Promotion) Applies multi-price promotional rules (e.g., buy N items for a special price Y).
+`MultiPricePromotion` (Implementation of Promotion)\
+Applies multi-price promotional rules (e.g., buy N items for a special price Y).
 
 Fields:
 - itemId: The id of the item to which the promotion applies.
