@@ -79,6 +79,16 @@
 			<version>1.15.10</version> <!-- Use the latest version -->
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>jakarta.validation</groupId>
+			<artifactId>jakarta.validation-api</artifactId>
+			<version>3.0.2</version> <!-- Ensure you use a compatible version -->
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate.validator</groupId>
+			<artifactId>hibernate-validator</artifactId>
+			<version>8.0.0.Final</version> <!-- Latest Hibernate Validator, compatible with Jakarta -->
+		</dependency>
 	</dependencies>
 
 	<build>
